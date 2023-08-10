@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    color: black;
+  }
+
+  /* Body with the size of the margin and background colour */
+  body {
+    margin: 0;
+    background-color:beige;
+    
+  }
+
+  /* main with flex feautures and sizes */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+
+  /* header with features like the size, background colour or flex */
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: rgb(128, 169, 197);
+    text-align: center;
+    font-size: 20px;
+  }
+ 
+  /* nav with some features like flex which will help make a flow in the webpage */
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: beige;
+  }
+
+  /* nav blocks in specific directions */
+  nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  /*It creates a hover over nav */
+  nav a:hover {
+    background-color: rgb(128, 169, 197);
+    color: black;
+  }
+
+  /* Section Info with some features to its block */
+  .info{
+    background-color: rgb(128, 169, 197);
+    text-align: center;
+    border-style: solid ;
+  }
+
+  /* It creates a hover over the section info */
+  .info:hover {
+    background-color: beige;
+    color: black;
+  }
+
+  /* Section projects, the whole section with some features */
+  .projects {
+    flex: 4;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid
+  }
+  
+  /* Section Proj, each box with some features */
+  .Proj {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: dotted;
+    border-width: 3px;
+    background-color: rgb(128, 169, 197);
+    margin: 8px;
+
+  }
+
+  /* It creates a hover over the section Proj */
+  .Proj:hover {
+    background-color: beige;
+    color: black;
+  }
+
+    /*Font size for the paragraphs */
+    p {
+        font-size: 16px;
+    }
+
+    /* The size of the images */
+    .projects img {
+    width: 100%;
+    min-width: 400px;
+    
+  }
+
+  /* section contact at the center */
+  .contact{
+    align-items: center;
+    text-align: center;
+  }
+
+  /*It creates a hover over the section contact  */
+  .contact:hover {
+    background-color: rgb(128, 169, 197);
+    color: black;
+  }
+
+  /* It makes the flex direction of main and nav to go along the column */
+  @media screen and (max-width: 768px) {
+    main,
+    nav{
+      flex-direction: column;
+    }
+    }
+  
+  /* The section name footer with some features  */
+  .footer {
+    padding: 1%;
+    text-align: center;
+    background: rgb(128, 169, 197);
+    margin-top: auto;
+  }
