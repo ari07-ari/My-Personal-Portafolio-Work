@@ -7,6 +7,10 @@
   body {
     margin: 0;
     background-color:beige;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
     
   }
 
@@ -123,7 +127,7 @@
     }
   
   /* The section name footer with some features  */
-  .footer {
+  footer {
     padding: 1%;
     text-align: center;
     background: rgb(128, 169, 197);

@@ -92,7 +92,7 @@
 
     /*Font size for the paragraphs */
     p {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     /* The size of the images */
@@ -128,4 +128,44 @@
     text-align: center;
     background: rgb(128, 169, 197);
     margin-top: auto;
+  }
+
+  .project-details {
+    display: none;
+    position: fixed; /* Use fixed positioning to cover the whole page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255 / 95%); /* Semi-transparent background for overlay */
+    color: #fff; /* Text color for details */
+    padding: 50px;
+    z-index: 1;
+    overflow-y: auto; /* Allow scrolling if details exceed the viewport */
+    font-size: x-large;
+  }
+
+  button{
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:15px;
+    font-size: 30px;
+    display: block;
+  }
+
+  button:hover {
+    background-color:rgb(128, 169, 197);
+    transition: 0.7s;
+    
+}
+
+  .Proj {
+    position: relative;
+  }
+  
+  .Proj.active .project-details {
+    display: block;
+    z-index: 2; /* Ensure details appear above other content */
   }
