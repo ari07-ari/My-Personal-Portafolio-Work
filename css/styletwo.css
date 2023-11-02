@@ -143,6 +143,7 @@
     z-index: 1;
     overflow-y: auto; /* Allow scrolling if details exceed the viewport */
     font-size: x-large;
+    text-align: center;
   }
 
   button{
