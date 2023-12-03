@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
     color: black;
+    text-decoration: none;
   }
 
   /* Body with the size of the margin and background colour */
   body {
     margin: 0;
-    background-color:beige;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -18,11 +18,11 @@
   main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%;
+    /* margin-top: 2%; */
   }
 
   /* header with features like the size, background colour or flex */
-  .header{
+  /* .header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,13 +30,15 @@
     background: rgb(128, 169, 197);
     text-align: center;
     font-size: 20px;
-  }
+  } */
  
   /* nav with some features like flex which will help make a flow in the webpage */
   nav {
     display: flex;
     justify-content: flex-end;
     background-color: beige;
+    border-style: solid none solid none;
+    border-width: thin;
   }
 
   /* nav blocks in specific directions */
@@ -52,11 +54,26 @@
     color: black;
   }
 
+  .header h1 {
+    font-weight: 700; color:#202020;
+    text-transform: uppercase;
+    word-spacing: 1px; letter-spacing:2px;
+  }
+  .header h1 span {
+    margin-top: 40px;
+    text-transform: none;
+    font-size:.6em;
+    font-weight: normal;
+    font-style: italic; font-family: "Playfair Display","Bookman",serif;
+    color:#7e7d7d; letter-spacing:-0.005em; word-spacing:1px;
+    letter-spacing:none;
+  }
+
   /* Section Info with some features to its block */
   .info{
-    background-color: rgb(128, 169, 197);
+    /* background-color: rgb(128, 169, 197); */
     text-align: center;
-    border-style: solid ;
+    /* border-style: solid ; */
   }
 
   /* It creates a hover over the section info */
@@ -130,6 +147,8 @@
   footer {
     padding: 1%;
     text-align: center;
-    background: rgb(128, 169, 197);
+    background: beige;
     margin-top: auto;
+    border-style: solid none none none;
+    border-width: thin;
   }
