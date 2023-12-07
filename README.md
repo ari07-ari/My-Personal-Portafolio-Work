@@ -4,7 +4,7 @@
 I am introducing my personal portafolio. Among the skills I learned, I was able to put them into practice and create a display of each 
 individual project, along with some links to their websites, or images of how the prototype looks like. 
 
-![Webpage](./Images/personal.png)
+![Webpage](./Images/profile.png)
 
 [Go to Website here](https://ari07-ari.github.io/My-Personal-Portafolio-Work/)
 
