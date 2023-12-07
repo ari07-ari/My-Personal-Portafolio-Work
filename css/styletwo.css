@@ -47,7 +47,7 @@
 
   /*It creates a hover over nav */
   nav a:hover {
-    background-color: rgb(128, 169, 197);
+    background-color: rgb(3 3 3 / 24%);
     color: black;
   }
 
